@@ -4,6 +4,7 @@
 
 extern "C" {
     int Testtcl_Init(Tcl_Interp *Interp);
+    int Testtcl_Unload( Tcl_Interp *Interp, int flags);
 }
 
 int Action_Test1( int notUsed, Tcl_Interp *interp, int argc, char **argv) {
