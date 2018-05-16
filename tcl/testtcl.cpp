@@ -33,7 +33,6 @@ int Testtcl_Init(Tcl_Interp *Interp) {
     return TCL_OK;
 }
 
-int Testtcl_Unload( Tcl_Interp *Interp, int flags)
-{
+int Testtcl_Unload( Tcl_Interp *Interp, int flags) {
     return TCL_OK;
 }
